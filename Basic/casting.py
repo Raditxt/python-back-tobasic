@@ -7,3 +7,19 @@ x = int(3.14)
 y = int(5.99)
 
 # from string
+z = int("137")
+w = int("242", 2)  # Base 2 (binary)
+
+# Wrong casting example
+# from string with non-numeric characters
+try:
+    int("137abc")
+except ValueError:
+    print("Cannot convert '137abc' to int")
+
+#2. float - Chaange integer, float, or string to decimal
+# from integer
+a = float(7)
+n = float(-14)
+
+#from string
