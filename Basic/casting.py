@@ -23,3 +23,26 @@ a = float(7)
 n = float(-14)
 
 #from string
+v = float("3.14")
+s = float("343")
+
+# Wrong casting example : String with non-numeric characters
+try:
+    float("3.14abc")
+except ValueError:
+    print("Cannot convert '3.14abc' to float")
+
+#3. str() - Change to string
+# from integer
+q = str(213)
+w = str(-42)
+
+# from float
+e = str(3.14)
+
+# from boolean
+f = str(True)
+g = str(False)
+b = str(None)
+
+# from kompleks
